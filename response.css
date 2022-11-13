@@ -1,0 +1,190 @@
+/* Dashboard, Profile, My orders and Security Section Bootstrap Columns Response Settings */
+
+@media (min-width: 1536px) {
+    .row1{
+        width: 1496px;
+
+    }
+}
+
+@media (max-width: 990px) {
+    .row1{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* All Section Response Applied Here Except Mobile Response*/
+
+@media (max-width: 1535.9px) {
+    .second-col{
+        position: relative;
+        left: 295px;
+        bottom: 530px
+    }
+
+    .row1{
+        height: 549.2px;
+    }
+}
+
+@media (max-width: 990px) {
+    .second-col{
+        position: static;
+    }
+
+    .row1{
+        height: auto;
+    }
+
+    .first-col{
+        border-right: 0;
+        border-bottom: 8px solid ;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 790px) {
+    .all-inputs{
+        width: 300px;
+    }
+    .input-type1{
+        position: relative;
+        left: 22px;
+    }
+
+    .input-type2{
+        position: relative;
+        right: 3.65px;
+    }
+
+    .input-type3{
+        position: relative;
+        left:23px;
+        margin-top: 20px;
+    }
+
+    .input-type4{
+        position: relative;
+        right: 3px;
+        margin-top: 20px;
+    }
+
+    .input-type5{
+        position: relative;
+        right: 2.5px;
+    }
+
+    .input-type6{
+        position: relative;
+        right: 2.4px;
+    }
+
+    .input-type7{
+        position: relative;
+        left: 25px;
+        margin-bottom: 20px;
+    }
+
+    .input-type8{
+        position: relative;
+        right: 1px
+    }
+
+    .input-type9{
+        position: relative;
+        left: 26px;
+        margin-bottom: 20px;
+    }
+
+    .profile-info{
+        position: static;
+        left: 1px;
+    }
+
+    .update-btn{
+        position: static;
+        right: 50px
+    }
+
+    .change-password{
+        position: static;
+    }
+
+    .password-btn{
+        position: static;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Mobile Response starting from screen width 376px applied here */
+
+@media (max-width: 400px) {
+    .input-type1{
+        width: 230px;
+        position: relative;
+        left: 22px;
+    }
+
+    .input-type2{
+        width: 230px;
+        position: relative;
+        right: 3.65px;
+    }
+
+    .input-type3{
+        width: 230px;
+        position: relative;
+        left:23px;
+        margin-top: 20px;
+    }
+
+    .input-type4{
+        width: 230px;
+        position: relative;
+        right: 3px;
+        margin-top: 20px;
+    }
+
+    .input-type5{
+        width: 230px;
+        position: relative;
+        right: 2.5px;
+    }
+
+    .input-type6{
+        width: 230px;
+        position: relative;
+        right: 2.4px;
+    }
+
+    .input-type7{
+        width: 230px;
+        position: relative;
+        left: 25px;
+        margin-bottom: 20px;
+    }
+
+    .input-type8{
+        width: 230px;
+        position: relative;
+        right: 1px
+    }
+
+    .input-type9{
+        width: 230px;
+        position: relative;
+        left: 26px;
+        margin-bottom: 20px;
+    }
+
+    .input-type10{
+        width: 230px;
+    }
+
+    .update-btn{
+        margin-bottom: 20px;
+    }
+}
